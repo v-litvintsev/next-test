@@ -1,0 +1,13 @@
+.paginationLink {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(216, 216, 216);
+
+  &_active {
+    background: #000;
+    color: #fff;
+  }
+}
